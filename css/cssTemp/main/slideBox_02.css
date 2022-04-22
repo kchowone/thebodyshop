@@ -1,0 +1,8 @@
+
+/* slideBox_02============================ */
+#slideBox_02{width: 100%;height:130px;
+  padding: 15px;
+  background-image: url("../../../../img/slide_02.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;}

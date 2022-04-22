@@ -1,0 +1,22 @@
+@charser "UTF-8";
+/* variable.css */
+
+:root{
+  font-size: 16px;
+  
+  --phone:320px;
+  --tablet:600px;
+  --laptop:1024px;
+  --desktop:1440px;
+  --base:var(--desktop);
+
+  /* Color styles */
+--color-point: rgba(0, 66, 54, 1);
+--color-black: rgba(24, 24, 24, 1);
+--color-beige: rgba(243, 239, 230, 1);
+--color-white: rgba(255, 255, 255, 1);
+
+
+/* Font-family styles */
+/* --font-set:'Noto Sans KR', sans-serif; */
+}

@@ -1,0 +1,24 @@
+
+/* boardBox */
+#boardBox{width: 100%; height:auto;
+  padding-top: 30px;
+  padding-bottom: 30px;}
+  
+  .width_1440{
+    display: grid; height: 310px;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  #boardBox .item1{
+  background-image: url("../../../../img/boardBox_01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  }
+  #boardBox .item2{
+  background-image: url("../../../../img/boardBox_02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+    }
+  

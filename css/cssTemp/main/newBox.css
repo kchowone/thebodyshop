@@ -1,0 +1,21 @@
+
+/* newsBox=========================== */
+#newsBox{width: 100%; height:auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #F2EFE5;}
+  
+  #newsBox .width_1100{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-rows:repeat(2,255px);
+  }
+  
+  #newsBox .item1{
+  grid-column-end:span 2;
+  grid-row-end:span 2;}
+  
+  #newsBox .item2{
+  grid-column-end:span 2;
+  grid-row-end: span 1;}
+  

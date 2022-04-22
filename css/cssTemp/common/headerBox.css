@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* headerBox=============================== */
+#headerBox{width: 100%;height:92px;
+  font-weight:700;;
+  background-color:var(--color-white);}
+  
+  #headerBox .width_1100{
+    display: flex;align-items:center;
+    height: 100%;
+    position: relative;}
+  
+  .company{position: absolute;
+  top:0px; left: 0; right: 0;
+  margin: auto;
+  width:90px;
+  }
+  
+  #headerBox .navigation{
+  display: flex;align-items: center;
+  width: 100%;}
+  
+  #headerBox ul{display: flex;}
+  
+  .menu1{top:0;left: 0;}
+  .menu li{
+  width: auto; height:100%;
+  margin-right:113px;
+  padding: 5px;
+  box-sizing: border-box;}
+  
+  .menu li:last-child{margin-right: 0;}
+  
+  .right_menu{
+  position:absolute;
+  right: 0;
+  display: flex;
+  width:440px;}
+  
+  .icon{
+  position: absolute;
+  top: 0;right: 0;
+  height: 100%;}
+  
+  .icon li{
+  width: auto;
+  padding:5px;
+  box-sizing: border-box;}
