@@ -10,13 +10,13 @@
   }
   
   #boardBox .item1{
-  background-image: url("../../../../img/boardBox_01.png");
+  background-image: url("../../../img/boardBox_01.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   }
   #boardBox .item2{
-  background-image: url("../../../../img/boardBox_02.png");
+  background-image: url("../../../img/boardBox_02.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
