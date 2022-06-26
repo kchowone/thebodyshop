@@ -1,8 +1,27 @@
 
 /* slideBox_02============================ */
-#slideBox_02{width: 100%;height:130px;
+#slideBox_02{
+  position: relative;
+  width: 100%;height:130px;
   padding: 15px;
   background-image: url("../../../img/slide_02.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;}
+
+  .number_page_container{
+    position: absolute; bottom: 0; left: calc(100% - 520px);
+    display: flex;justify-content: center;align-items: center; 
+    width: 92px; height: 32px;
+    padding:3px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color:rgba(0,0,0,0.1);
+  }
+
+.slide_02_button:nth-child(1){order: 3;}
+.slide_02_button:nth-child(2){order: 1;}
+
+.num_page{order: 2;
+color:var(--color-black);
+font-weight: 700;;}

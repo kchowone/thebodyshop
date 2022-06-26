@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- tbs_main.html -->
+<!-- index.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
@@ -12,9 +12,10 @@
 
 <link rel="stylesheet" href="../fontawesome-v6/css/all.css">
 
+<link rel="stylesheet" href="../css/common/variable.css">
 <link rel="stylesheet" href="../css/common/reset.css">
 <link rel="stylesheet" href="../css/common/common.css">
-<link rel="stylesheet" href="../css/src/tbs_main.css">
+<link rel="stylesheet" href="../css/src/index.css">
 
 
 
@@ -88,7 +89,7 @@
       <div class="width_1100">
         <h2 class="blind">베스트 상품</h2>
         <div class="title_box">
-          <h2>best</h2>
+          <h2>best<span class="title_bar"></span></h2>
         </div>
 
         <div class="item item1">
@@ -174,7 +175,7 @@
     
       <div class="width_1100">
         <div class="title_box">
-          <h2>Review</h2>
+          <h2>Review<span class="title_bar"></span></h2>
         </div>
 
         <div class="item item1">
@@ -222,8 +223,20 @@
 
     <section id="slideBox_02">
       <h2 class="blind">슬라이드 광고영역2</h2>
-      <div class="number_page">
+      <div class="number_page_container">
+        <div class="slide_02_button">
+          <button type="button" class="next"><img src="../img/slide02_next.png"></button>
+        </div>
+        <div class="slide_02_button">
+          <button type="button" class="prev"><img src="../img/slide02_prev.png"></button>
+        </div>
 
+        <div class="num_page">
+          <p>1/n</p>
+        </div>
+          
+      </div>
+        </div>
       </div>
     </section><!-- // #slideBox_02-->
 
@@ -249,7 +262,7 @@
             <ul class="footer_menu">
               <li>080 - 759 - 7700</li>
               <li>평일 10:00 ~ 17:00<br />
-              (점심시간 12:00 ~ 13:00)</li>
+                &nbsp;&nbsp;(점심시간 12:00 ~ 13:00)</li>
               <li>토,일 공휴일 휴무</li>
             </ul>
           </li>

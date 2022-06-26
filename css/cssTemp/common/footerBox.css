@@ -13,15 +13,18 @@
   font-weight: 700;
   font-size: 14px;}
   
+  
   .footer_menu{
-    width:200px;
+  width:200px;
   font-weight: 400;
-  font-size: 12px;}
+  font-size: 12px;
+  text-indent:10px;}
   
   .footer_menu li{
   width: auto;
   padding: 5px;
-  padding-left: 0%;}
+  padding-left: 0%;
+  text-align: left;}
   
   .footer_menu li:nth-child(1){margin-top:10px;}
   

@@ -10,12 +10,7 @@
   position: relative;
   padding-bottom:80px;
   }
-  
-  .title_box{ border: 1px solid red;
-  position: absolute;left:-100px;top:0;}
-  .title_box h2{writing-mode: vertical-rl;
-  text-orientation: upright;
-  letter-spacing:10px;}
+
   
   .b_product_img{background-color: #fff;}
   #bestBox .item{text-align: center;

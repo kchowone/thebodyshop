@@ -11,6 +11,18 @@
   grid-template-rows:repeat(2,255px);
   }
   
+  #newsBox .item{
+    overflow: hidden;
+  
+    cursor: pointer;
+  }
+
+  #newsBox .item img{
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+
   #newsBox .item1{
   grid-column-end:span 2;
   grid-row-end:span 2;}
@@ -19,3 +31,7 @@
   grid-column-end:span 2;
   grid-row-end: span 1;}
   
+  #newsBox .item:hover img{
+    transform: scale(1.1);
+    opacity:0.5;
+  }

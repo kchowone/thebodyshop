@@ -20,3 +20,17 @@ margin: 0 auto;}
 .width_1400{width: 100%; max-width: 1440px;
 height:auto;}
 
+  
+.title_box{
+  position: absolute;left:-100px;top:0;}
+
+.title_box h2{writing-mode: vertical-rl;
+text-orientation: upright;
+text-transform: uppercase;
+letter-spacing:10px;}
+
+.title_bar{position: absolute;top:100%;right: 0;left: 0;
+display:inline;
+margin: auto;
+width:1px; height: 100px;
+background-color:var(--color-black);}
