@@ -4,16 +4,16 @@
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #F2EFE5;}
-  
+
+
   #newsBox .width_1100{
   display: grid;
   grid-template-columns:repeat(4,1fr);
   grid-template-rows:repeat(2,255px);
   }
   
-  #newsBox .item{
+  #newsBox a{
     width: auto; height:100%;
-    cursor: pointer;
     overflow: hidden;
   }
 

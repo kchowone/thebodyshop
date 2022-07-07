@@ -4,13 +4,14 @@
   padding-top: 80px;
   padding-bottom: 80px;}
   
-  #reviewBox .width_1100{
-  padding-bottom: 80px;
+  .review_container{
   display: grid;
   grid-column-gap:20px;
   grid-template-columns: repeat(3, 1fr);
-  }
-  
+  width: 100%; 
+  height:100%; min-height:500px;
+  padding-bottom: 80px;}
+
   #reviewBox .item{
     box-shadow: 0px 5px 4px rgba(0,0,0,0.2);
     background-color: #fff;}

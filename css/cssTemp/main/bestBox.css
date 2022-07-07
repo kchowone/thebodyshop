@@ -3,14 +3,16 @@
 #bestBox{width: 100%; height:auto;
   padding-top:70px;
   padding-bottom: 70px;}
-  
-  #bestBox .width_1100{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  position: relative;
-  padding-bottom:80px;
-  }
 
+ .best_container{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 100%; 
+  min-height:350px;height: auto;
+  padding-bottom:80px;
+  
+ }
   
   .b_product_img{background-color: #fff;}
   #bestBox .item{text-align: center;
