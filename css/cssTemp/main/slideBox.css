@@ -2,7 +2,8 @@
 
 /* slideBox =================================*/
 #main_bannerBox{
-  width: 100%; height:auto; }
+  width: 100%; height:auto;
+}
   
   .banner_container{
   position: relative;
@@ -21,9 +22,6 @@
   .banner_img{
     left: 0;
     background-image: url("../../../img/slideBox_01.png");}
-  
-
-  
   
   .banner_titleBox{
   display: flex;flex-direction: column;justify-content: center;align-items:flex-start;
