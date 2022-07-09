@@ -20,7 +20,7 @@
   
   .b_title{font-weight:500;
   padding:5px;}
-  .b_tag{font-weight:600;color: #818181;font-size: 12px;
+  .b_tag{font-weight:500;color: #818181;font-size: 12px;
   padding: 5px;}
   .b_price{font-weight:600;font-size: 12px;
   padding: 5px;}
@@ -35,8 +35,8 @@
   #bestBox .indi{
     display: inline;
     cursor: pointer;
-    width:15px;height: 15px;
-    margin-left: 17px;
+    width:18px;height: 18px;
+    margin:0 10px;
     border-radius: 50px;
     border:1px solid rgba(0,66,54,1);}
   

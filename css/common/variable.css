@@ -15,7 +15,8 @@
 --color-black: rgba(24, 24, 24, 1);
 --color-beige: rgba(243, 239, 230, 1);
 --color-white: rgba(255, 255, 255, 1);
-
+--color-opacity: rgba(156, 156, 156, 0.5);
+--color-yellow: rgba(214, 206, 75, 1);
 
 /* Font-family styles */
 /* --font-set:'Noto Sans KR', sans-serif; */

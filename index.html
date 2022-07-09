@@ -30,7 +30,7 @@
         <div class="menu_container">
           <ul class="head_Menu">
             <li class="head_li"><a href="#">제품</a>
-              <div class="menu_bg" style="display:none">
+              <div class="menu_bg" >
                 <ul class="sub_menu">
                  <li class="sub_li">New
                     <ul class="cata_menu">
@@ -99,11 +99,46 @@
               </div>
             </li>
             <li class="head_li"><a href="#">SELF LOVE</a>
-              <div class="menu_bg"></div>
+              <div class="menu_bg">
+                <ul class="sub_menu">
+                  <li class="sub_li">Self love
+                    <ul class="cata_menu">
+                      <li class="cata_li"><a href="#">셀프러브란?</a></li>
+                      <li class="cata_li"><a href="#">셀프러브로 맞서자</a></li>
+                      <li class="cata_li"><a href="#">셀프러브팁</a></li>
+                      <li class="cata_li"><a href="#">셀프러브 마사지</a></li>
+                      <li class="cata_li"><a href="#">셀프러브 퀴즈</a></li>
+                      <li class="cata_li"><a href="#">셀프러브 인덱스</a></li>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="head_li"><a href="#">매장안내</a></li>
-            <li class="head_li"><a href="#">ABOUT US</a></li>
-            <li class="head_li"><a href="#">이벤트</a></li>
+            <li class="head_li"><a href="#">ABOUT US</a>
+              <div class="menu_bg">
+                <ul class="sub_menu">
+                  <li class="sub_li">About Us
+                    <ul class="cata_menu">
+                      <li class="cata_li"><a href="#">브랜드스토리</a></li>
+                      <li class="cata_li"><a href="#">브랜드 목적</a></li>
+                      <li class="cata_li"><a href="#">B코프 인증기업</a></li>
+                      <li class="cata_li"><a href="#">Natura &#38; Co</a></li>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="head_li"><a href="#">이벤트</a>
+              <div class="menu_bg">
+                <ul class="sub_menu">
+                  <li class="sub_li">이벤트
+                    <ul class="cata_menu">
+                      <li class="cata_li"><a href="#">진행 중인 이벤트</a></li>
+                      <li class="cata_li"><a href="#">지난 이벤트</a></li>
+                      <li class="cata_li"><a href="#">당첨자 발표</a></li>
+                  </li>
+                </ul>
+              </div>
+            </li>
 
           </ul>
         </div>
@@ -127,24 +162,49 @@
     <h2 class="blind">광고</h2>
     <div class="ad_container">
       <p><a href="#">이달의 프로모션</a> |
-          <a href="#">신한 TOPS 회원 혜택</a></p>
+          <a href="#">신한 TOPS 회원 혜택</a>
+      </p>
     </div>
   </div>
 
   <main class="content_wrapper">
     <section id="main_bannerBox">
       <h2 class="blind">슬라이드 광고영역</h2>
-      <div class="banner_container">
-        <div class="banner_img">
-          <div class="banner_titleBox">
-            <p class="banner_title">니 생강만 해!</p>
-            <p class="banner_txt">두피부터 멘탈까지 케어!</p>
-  
-            <button type="button" class="more_btn">자세히보기</button>
-          </div> 
-     
+      <div class="banner_wrap">
+        <div class="banner_container">
+          <div class="slide_button">
+            <div class="btn_box">
+              <button type="button" class="next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="btn_box">
+              <button type="button" class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+            </div>
+          </div>
+          <div class="banner_img banner_img1">
+            <div class="banner_titleBox">
+              <p class="banner_title">니 생강만 해!</p>
+              <p class="banner_txt">두피부터 멘탈까지 케어!</p>
+              <button type="button" class="more_btn">자세히보기</button>
+            </div>
+          </div>
+
+          <div class="banner_img banner_img2">
+            <div class="banner_titleBox">
+              <p class="banner_title">EDELWELSS</p>
+              <p class="banner_txt">탄력을 채우는 에델바이스의 힘</p>
+              <button type="button" class="more_btn">자세히보기</button>
+            </div>
+          </div>
         </div>
-        
+
+        <div class="indicator">
+          <ul>
+            <li class="indi"></li>
+            <li class="indi"></li>
+          </ul>
+        </div>
+      </div>
+      
        
     
      
@@ -315,17 +375,19 @@
 
     <section id="slideBox_02">
       <h2 class="blind">슬라이드 광고영역2</h2>
-      <div class="number_page_container">
-        <div class="slide_02_button">
-          <button type="button" class="next"><img src="./img/slide02_next.png"></button>
-        </div>
-        <div class="slide_02_button">
-          <button type="button" class="prev"><img src="./img/slide02_prev.png"></button>
-        </div>
-
-        <div class="num_page">
-          <p>1/n</p>
-        </div>
+      <div class="width_1100">
+        
+        <div class="number_page_container">
+          <div class="slide_02_button">
+            <button type="button" class="next"><img src="./img/slide02_next.png"></button>
+          </div>
+          <div class="slide_02_button">
+            <button type="button" class="prev"><img src="./img/slide02_prev.png"></button>
+          </div>
+          <div class="num_page">
+            <p>1/n</p>
+          </div>
+      </div>
           
       </div>
     </section><!-- // #slideBox_02-->
@@ -436,6 +498,8 @@
 
   </footer><!-- //#footerBox-->
 
-</div>  
+</div>
+
+<script defer src="./js/index.js"></script>
 </body>
 </html>
