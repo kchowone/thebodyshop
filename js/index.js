@@ -43,24 +43,24 @@ console.log(slides)
 let slideCount = slides.length; // 슬라이드 갯수
 let currentIndex = 0 ; // 현재 슬라이드
 
-let topHeight = slides[0].offsetHeight
-console.log(topHeight)
-function calculateTallsetSlide(){
-  for(let i = 0; i < slideCount; i++){
-    if(slides[i].offsetHeight > topHeight){
-      topHeight = slides[i].offsetHeight;
-    }
-  }
+// let topHeight = slides[0].offsetHeight
+// console.log(topHeight)
+// function calculateTallsetSlide(){
+//   for(let i = 0; i < slideCount; i++){
+//     if(slides[i].offsetHeight > topHeight){
+//       topHeight = slides[i].offsetHeight;
+//     }
+//   }
 
-  bannerContainer.style.height = `${topHeight}px`;
-  bannerWrap.style.height = `${topHeight}px`;
-}
-calculateTallsetSlide(); // 슬라이드 제일 높은값?
+//   bannerContainer.style.height = `${topHeight}px`;
+//   bannerWrap.style.height = `${topHeight}px`;
+// }
+// calculateTallsetSlide(); // 슬라이드 제일 높은값?
 
-for(let i = 0; i < slideCount; i++){
-  slides[i].style.left = `${i * 100}%`;
-  console.log(slides[i])
-}
+// for(let i = 0; i < slideCount; i++){
+//   slides[i].style.left = `${i * 100}%`;
+//   console.log(slides[i])
+// }
 
 // 버튼 클릭
 
