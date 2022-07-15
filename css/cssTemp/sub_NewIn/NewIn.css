@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* NweIn.css */
+
+@import url("../main/mainWrap.css");
+@import url("../common/headerBox.css");
+@import url("../sub_NewIn/sub_visualBox.css");
+@import url("../sub_NewIn/sub_newinBox.css");
+@import url("../common/footerBox.css");

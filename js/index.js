@@ -42,40 +42,47 @@ let slides = document.querySelectorAll('.banner_img'); // 슬라이드 이미지
 console.log(slides)
 let slideCount = slides.length; // 슬라이드 갯수
 let currentIndex = 0 ; // 현재 슬라이드
+let headindi = document.querySelectorAll('#main_bannerBox .indicator');
+console.log(headindi);
 
-// let topHeight = slides[0].offsetHeight
-// console.log(topHeight)
-// function calculateTallsetSlide(){
-//   for(let i = 0; i < slideCount; i++){
-//     if(slides[i].offsetHeight > topHeight){
-//       topHeight = slides[i].offsetHeight;
-//     }
-//   }
 
-//   bannerContainer.style.height = `${topHeight}px`;
-//   bannerWrap.style.height = `${topHeight}px`;
-// }
-// calculateTallsetSlide(); // 슬라이드 제일 높은값?
-
-// for(let i = 0; i < slideCount; i++){
-//   slides[i].style.left = `${i * 100}%`;
-//   console.log(slides[i])
-// }
 
 // 버튼 클릭
 
 btnPrev.addEventListener('click',()=>{
-  goToSlide(currentIndex - 1);
+  if(currentIndex != 0){
+    goToSlide(currentIndex - 1);
+  } else{
+    goToSlide(slideCount - 1);
+  }
 });
 
 btnNext.addEventListener('click',function(){
-  goToSlide(currentIndex + 1);
+  if(currentIndex < slideCount -1){
+    goToSlide(currentIndex + 1); 
+  }else{
+    goToSlide(0);
+  }
 })
 
 function goToSlide(idx){
-  bannerContainer.style.left = `${idx * 100}%`;
+  bannerContainer.style.left = `${idx * -100}%`;
   // bannerContainer.classList.add('animated');
   currentIndex = idx;
   // updateNav();
 }
 goToSlide(0);
+
+// 인디케이터
+for (let i = 0; i < headindi.length; i++){
+  headindi[i].addEventListener('click', function(event){});
+  console.log(headindi[i])
+}
+
+headindi.forEach(headindi =>{
+  headindi.addEventListener('click', (event)=>{
+    console.log(event.target);
+    let indiPageNum = event.target.dataset.index;
+    goToSlide(indiPageNum);
+  });
+});
