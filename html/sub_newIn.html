@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="../img/fa_logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300;400;500;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="../fontawesome-v6/css/all.css">
 
 <link rel="stylesheet" href="../css/common/variable.css">
@@ -171,7 +174,14 @@
     </header><!-- // #headBox-->
 
     <main class="content_wrapper">
-     
+     <div class="current_menu_container">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">NEW</a></li>
+        <li>New In</li>
+      </ul>
+     </div>
+
     <section id="sub_visualBox">
       <div class="visual_container">
         <div class="visual_titlebox">
@@ -187,6 +197,17 @@
         <h2 class="title">NEW IN</h2>
 
         <div class="labe">
+          <form>
+            <select name="product_label" class="select">
+              <option value="등록순">등록순</option>
+              <option value="판매순">판매순</option>
+              <option value="평점순">평점순</option>
+              <option value="제품평순">제품평순</option>
+              <option value="높은가격순">높은가격순</option>
+              <option value="낮은가격순">낮은순</option>
+            </select>
+    
+          </form>
         </div>
       </div>
 

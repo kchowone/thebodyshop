@@ -10,7 +10,7 @@ padding:42px 0;
 
 .newin_title_container{
   width: 100%; height: auto;
-  display: flex; justify-content:space-between;
+  display: flex; justify-content:space-between;align-items: center;
   border-bottom: 2px solid var(--color-lightgray);
 }
 
@@ -18,6 +18,20 @@ padding:42px 0;
   font-size: 28px;
   font-weight: 600;
 }
+
+.labe{
+  position: relative;
+  width: auto;height: auto;
+  background-color: #EDEF54;
+}
+
+.labe .select{
+  width: 74px;height: 34px;
+  color: var(--color-point);
+  padding: 0 5px;
+  border: 1px solid var(--color-lightgray);
+}
+
 
 .newin_product_container{
   width: 100%; height: auto;
