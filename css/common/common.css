@@ -5,6 +5,10 @@
   position: absolute;z-index: -1;
   width: 0; height: 0; overflow: hidden;}
 
+::selection{
+  background-color:#b3d4fc;
+}
+
 
 .clearfix{height: auto;}
 .clearfix:after,
@@ -20,6 +24,11 @@ margin: 0 auto;}
 .width_1400{width: 100%; max-width: 1440px;
 height:auto;}
 
+.width_950{
+  width: 100%; max-width: 950px;
+  height: auto;
+  margin: 0 auto;
+}
   
 .title_box{
   position: absolute;left:-100px;top:0;}

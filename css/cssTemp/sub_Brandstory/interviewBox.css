@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* interviewBox.css */
+
+.interviewBox{
+  width: 100%;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+
+
+#interviewBox1{height: 528px;
+background-color:var(--color-white);
+}
+
+#interviewBox2{
+  height:732px;
+  background-color: #9572AC;
+}
+
+#interviewBox3{
+  height: 732px;
+  background-color: #ED6AB2;
+}
+
+.interviewBox .width_1100{
+  display: flex;justify-content: space-around;
+}
+
+.interview_imgarea{
+  width: auto;height: auto;
+}
+
+.interview_imgarea img{
+  width: 100%;
+}
+
+
+.interview_textarea{
+  width: 570px; height: auto;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 50px 00px 0 50px;
+  color: var(--color-point);
+}
+
+.wise_saying{
+  font-size: 26px;
+  margin-bottom: 18px;
+}
+
+.person_who{
+font-weight:400;
+}
