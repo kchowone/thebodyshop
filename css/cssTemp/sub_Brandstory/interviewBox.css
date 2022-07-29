@@ -14,15 +14,15 @@ background-color:var(--color-white);
 
 #interviewBox2{
   height:732px;
-  background-color: #9572AC;
+  background-color:var(--color-point)
 }
 
 #interviewBox3{
   height: 732px;
-  background-color: #ED6AB2;
+  background-color:var(--color-beige);
 }
 
-.interviewBox .width_1100{
+.interviewBox .width_1200{
   display: flex;justify-content: space-around;
 }
 
@@ -36,18 +36,80 @@ background-color:var(--color-white);
 
 
 .interview_textarea{
-  width: 570px; height: auto;
+  width: 600px; height: auto;
   font-weight: 500;
   box-sizing: border-box;
-  padding: 50px 00px 0 50px;
+  padding: 50px 0px 0px 50px;
+  text-align: left;
   color: var(--color-point);
 }
 
 .wise_saying{
+  letter-spacing: -1px;
   font-size: 26px;
   margin-bottom: 18px;
 }
 
+.person_name{
+  margin-bottom: 8px;
+}
+
 .person_who{
 font-weight:400;
+}
+
+#interviewBox2 .width_1200,
+#interviewBox3 .width_1200{
+  display: block;
+  text-align: center;
+}
+
+.interview_content{
+  width:100%;
+  margin-top: 50px;
+}
+
+
+#interviewBox2 .sub_titlarea{
+  color: var(--color-beige);
+}
+
+#interviewBox3 .sub_titlarea{
+  color: var(--color-point);
+}
+
+.sub_titlarea{
+  width: 100%;height: auto;
+}
+
+
+#interviewBox2 .wise_saying,
+#interviewBox2 .person_name,
+#interviewBox2 .person_who
+{
+  color: var(--color-beige);
+}
+
+
+#interviewBox3 .wise_saying,
+#interviewBox3 .person_name,
+#interviewBox3 .person_who
+{
+  color: var(--color-point);
+}
+
+
+.sub_title{
+  margin-bottom: 43px;
+  font-size: 30px;
+  letter-spacing: -2px;
+}
+
+.sub_t{
+  line-height: 1.6rem;
+}
+
+.interview_content{
+  display: flex; justify-content: space-around;
+  
 }

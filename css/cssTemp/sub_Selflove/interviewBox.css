@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* interviewBox.css  */
+
+.interviewBox{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#interviewBox_1{
+  width: 100%; height:auto;
+  padding-bottom: 40px;
+  background-color:var(--color-beige)
+}
+
+
+#interviewBox_2{
+  width: 100%; height: auto;
+  background-color: var(--color-white);
+
+}
+
+#interviewBox_3{
+  width: 100%; height: auto;
+  padding-bottom: 30px;
+  background-color:var(--color-beige)
+}
+
+
+#interviewBox_4{
+  width: 100%; height: auto;
+  padding-bottom: 30px;
+  background-color:var(--color-white);
+}
+
+#interviewBox_5{
+  width: 100%; height: auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  background-color: var(--color-beige);
+}
+
+
+.interview_container{
+  width: 100%; height: auto;
+}
+
+
+.interviewBox .text_item{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+#interviewBox_1 .text_item{
+  width: 100%; height: 547px;
+}
+
+
+#interviewBox_2 .text_item{
+  width: 100%; height: 452px;
+  margin-top: 10px;
+}
+
+#interviewBox_4 .text_item{
+  width: 100%; height: 630px;
+  margin-top: 10px;
+}
+
+#interviewBox_5 .text_item{
+  width: 100%; height: 452px;
+  margin-top: 10px;
+}
+
+
+
+
+.text_content{
+  display: flex; justify-content:flex-end; align-items: center;
+  width:100%;height: 100%;
+}
+
+
+#interviewBox_2 .text_content,
+#interviewBox_5 .text_content
+{order: 2;
+  justify-content: flex-start;}
+
+#interviewBox_2 .img_content,
+#interviewBox_5 .img_content
+{order: 1;}
+  
+.text_container{
+  width: 600px;height:auto;
+  padding: 20px;
+  margin: 0 50px 0 0;
+  box-sizing: border-box;
+  color: var(--color-point);
+}
+
+#interviewBox_2 .text_container,
+#interviewBox_5 .text_container
+{
+  margin: 0 0 0 50px;
+}
+
+
+
+.sub_t,
+.sub_t2{
+  line-height: 1.8rem;
+}
+
+#interviewBox_1 .width_1100,
+#interviewBox_3 .width_1100,
+#interviewBox_4 .width_1100,
+#interviewBox_5 .width_1100
+{
+  display: flex; justify-content: space-around;
+}
+
+
+#interviewBox_1 .img_content{
+  width: 100%; height: 100%;
+  background-image: url("../../../img/Selfove/interview_bg1.png");
+
+}
+
+#interviewBox_2 .img_content{
+  width: 100%; height: 100%;
+  background-image: url("../../../img/Selfove/interview_bg2.png");
+
+}
+
+#interviewBox_4 .img_content{
+  width: 100%; height: 100%;
+  background-image: url("../../../img/Selfove/interview_bg4.png");
+
+}
+
+#interviewBox_5 .img_content{
+  width: 100%; height: 100%;
+  background-image: url("../../../img/Selfove/interview_bg5.png");
+
+}
+
+.interviewBox .img_content{
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;;
+}
+
+
+.interview_textarea{
+  width: 600px; height: auto;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 50px 0px 0px 100px;
+  text-align: left;
+  color: var(--color-point);
+}
+
+.wise_saying{
+  letter-spacing: -1px;
+  font-size: 26px;
+  margin-bottom: 18px;
+}
+
+.person_name{
+  margin-bottom: 8px;
+}
+
+.person_who{
+font-weight:400;
+}
+
+.interview_text_container{
+  width: 100%; max-width: 1315px;
+  margin:  0 auto;
+  padding-top: 35px;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--color-point);
+}
+
+/* ------------------------- */
+
+.sub_titlarea{
+  width: 100%;height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: var(--color-point);
+}
+
+
+
+.sub_title{
+  margin-bottom: 20px;
+  font-size: 30px;
+  letter-spacing: -2px;
+}
+
+#interviewBox_2 .text_container .sub_t{
+  width: 500px;
+  line-height: 1.8rem;
+
+}
+
+#interviewBox_5 .text_container .sub_t{
+  width: 490px;
+  line-height: 1.8rem;
+
+}
+
+
+/* ----------------------------- */
+
+
+#interviewBox_3 .width_1250{
+  letter-spacing: -1px;
+}
+
+.interviewBox  .sub_t2{
+ margin-top: 20px; 
+}
+
+#interviewBox_5 .width_1100{
+  margin-top: 30px;;
+}

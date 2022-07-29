@@ -2,16 +2,16 @@
 /* sub_visualBox.css*/
 
 #sub_visualBox{
-width: 100%;height:500px;
+width: 100%;height:564px;
 display: flex;justify-content: center;align-items: center;
-background-color:var(--color-beige);}
+background-color:var(--color-point);}
 
 .visual_titlebox{
   width: 1000px; height:auto;
   text-align: center;
   padding: 0 10px;
   box-sizing: border-box;
-  color: var(--color-point);
+  color: var(--color-beige);
   font-weight: 600;
 }
 
